@@ -5,7 +5,7 @@ from random import randint
 from urllib import parse, request
 import re
 
-bot = commands.Bot(command_prefix='7', description="Partie v2 de Napoleon ;)")
+bot = commands.Bot(command_prefix='7', description="Bot qui réagit ;)")
 
 @bot.listen()
 async def on_message(message):
