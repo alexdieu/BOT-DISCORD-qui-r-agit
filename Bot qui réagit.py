@@ -210,7 +210,7 @@ async def on_message(message):
 @bot.listen()
 async def on_message(message):
     if "Python" in message.content.lower():
-        await message.channel.send('Tu sais coder ? Wow tu as réussi à coder trois lignes !' )
+        await message.channel.send('Tu sais coder ? Wow tu as réussi à coder trois lignes https://media.giphy.com/media/KAq5w47R9rmTuvWOWa/source.gif !' )
         await bot.process_commands(message)
 @bot.listen()
 async def on_message(message):
